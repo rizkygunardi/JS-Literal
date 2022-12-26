@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas JS Literal Syntax</title>
+  </head>
+  <body>
+    <h3>Quality Assurance Eduwork</h3>
+    <p id="aritmatika"></p>
+    <p id="aritmatika2"></p>
+    <script>
+      let x, y, z;
+      x = 10;
+      y = "Saya belajar javascript";
+      z = 100;
+
+      document.getElementById("aritmatika").innerHTML =
+        "Ini penjumlahan yang Salah : " + x + y + z;
+      document.getElementById("aritmatika2").innerHTML =
+        "Ini penjumlahan yang Benar : " + (x + z);
+
+      // ketika sebuah interger digabungkan dengan string maka JS akan membaca interger sebagai string
+      // sehingga nilai pada variable x DIGABUNGKAN bukan dijumlahkan sebagaimana mestinya.
+    </script>
+  </body>
+</html>
