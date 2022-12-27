@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Variabel</title>
+  </head>
+  <body>
+    <p id="use_var"></p>
+    <p id="use_let"></p>
+    <p id="use_nothing"></p>
+
+    <script>
+      //use_var
+      var x1 = 5;
+      var y1 = 9;
+      var z1 = x1 + y1;
+      document.getElementById("use_var").innerHTML =
+        "Nilai z1 yang keluar menggunakan variabel var adalah " + z1;
+
+      //use_let
+      let x1 = 10;
+      let y1 = 91;
+      let z1 = x1 + y1;
+      document.getElementById("use_let").innerHTML =
+        "Nilai z1 yang keluar menggunakan variabel let adalah " + z1;
+
+      //use_nothing
+      x1 = 5;
+      y1 = 9;
+      z1 = x1 + y1;
+      document.getElementById("use_var").innerHTML =
+        "Nilai z1 yang keluar menggunakan variabel nothing adalah " + z1;
+    </script>
+  </body>
+</html>
